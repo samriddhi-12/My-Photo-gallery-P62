@@ -1,0 +1,125 @@
+<head>
+	<meta charset="utf-8">
+	<title> My Photo Gallery </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<center>
+		<ul class="menu">
+			<li class="links"> <a href="#Home">Home </a> </li>
+			<li class="links"> <a href="#Grid view">Grid View </a></li>
+			<li class="links"> <a href="#mycarousel">Slide View </a></li>
+		</ul>
+	</center>
+
+	<section id="Home">
+		<h1> Welcome to my Photo Gallery </h1>
+		<img src="Avengers.jpg" />
+	</section>
+
+	<section id="Grid view">
+		<h2> Grid Gallery </h2>
+		<br>
+		<div class="row">
+			<img src="Iron%20man.jpg"/>
+			<img src="Thor.jpg"/>
+			<img src="Hulk.jpg"/>
+			<img src="Captain%20America.jpg"/>
+		</div>
+
+		<div class="row">
+			<img src="Captain%20Marvel.jpg"/>
+			<img src="Black%20Window.jpg"/>
+			<img src="Spider%20Man.png"/>
+			<img src="Black-Panther.jpg"/>
+		</div>
+	</section>
+
+	<h2> Slide Gallery </h2>
+	<div id="mycarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<center>
+					<img src="Iron%20man.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p> Iron Man</p>
+					</div>
+				</center>
+			</div>
+			<div class="item">
+				<center>
+					<img src="Thor.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p> Thor </p>
+					</div>
+				</center>
+			</div>
+
+			<div class="item">
+				<center>
+					<img src="Hulk.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p> Hulk </p>
+					</div>
+				</center>
+
+			</div>
+
+			<div class="item">
+				<center>
+					<img src="Captain%20America.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p>Captain America </p>
+					</div>
+				</center>
+			</div>
+
+			<div class="item">
+				<center>
+					<img src="Captain%20Marvel.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p> Captain Marvel </p>
+					</div>
+				</center>
+			</div>
+
+			<div class="item">
+				<center>
+					<img src="Black%20Window.jpg" class="img-responsive">
+					<div class="carousel-content">
+						<p>Black Window </p>
+					</div>
+				</center>
+
+				<div class="item">
+					<center>
+						<img src="Spider%20Man.png" class="img-responsive">
+						<div class="carousel-content">
+							<p> Spider Man</p>
+						</div>
+					</center>
+				</div>
+
+				<div class="item">
+					<center>
+						<img src="Black-Panther.jpg" class="img-responsive">
+						<div class="carousel-content">
+							<p> Black Panther</p>
+						</div>
+					</center>
+				</div>
+
+			</div>
+
+		</div>
+		<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"> </span> </a>
+		<a class="right carousel-control" href="#mycarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"> </span> </a>
+	</div>
+</body>
+</html>
